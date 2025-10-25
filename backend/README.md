@@ -46,9 +46,13 @@ developed currentaccount api (main.py)
 developed apply for loan api (users) (main.py)
 developed admin api for handeling loan application approval (Only for admin Use) (main.py)
 
+
 # testing
+done unit testing passed all the test cases used pytest library (test>test_main.py)
+
 # deployment
-# presentation
+Local deployment
+
 
 
 # fastapi intractive docs
