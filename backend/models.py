@@ -48,7 +48,7 @@ class Loan(Base):
     tenure_months = Column(Integer, nullable=False)
     interest_rate = Column(Float, nullable=False)
     emi = Column(Float, nullable=False)
-    status = Column(String(20), default="Pending") 
+    status = Column(String(20), default="Pending")
     created_at = Column(DateTime, default=datetime.utcnow)
 
     user = relationship("User")

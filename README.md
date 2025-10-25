@@ -54,6 +54,3 @@ done unit testing passed all the test cases used pytest library (test>test_main.
 Local deployment
 
 
-
-# fastapi intractive docs
-Interactive docs: http://127.0.0.1:8000/docs
