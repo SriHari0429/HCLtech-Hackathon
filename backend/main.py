@@ -174,7 +174,7 @@ def apply_loan(loan: LoanCreate, db: Session = Depends(get_db)):
         "loan_id": new_loan.id,
         "emi": new_loan.emi
     }
-# only for admin use to approve loan
+# only for admin use to approve
 @app.put("/admin/loanstatus/{loan_id}")
 def update_loan_status(loan_id: int, status: str, db: Session = Depends(get_db)):
     loan = db.query(Loan).filter(Loan.id == loan_id).first()
